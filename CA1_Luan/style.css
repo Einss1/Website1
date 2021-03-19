@@ -1,0 +1,118 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.623);
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: #b9b8b8de;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Times New Roman';
+  }
+
+.navbar a:hover {
+    background-color: #6e6e6e;
+    color: rgb(0, 0, 0);
+  }
+
+.navbar a.active {
+    background-color: #28168d;
+    color: rgb(255, 255, 255);
+  }
+
+.heading {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraph {
+   text-align: justify;
+   font-family: Verdana, Geneva, Tahoma, sans-serif 
+}
+
+h1.heading {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.paragraph {
+    word-wrap: break-word;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+img.logohtml {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    height: 200px;    
+}
+
+img.logocss {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 200px; 
+}
+
+img.logojavascript {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    height: 200px; 
+}
+
+.dark-mode {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+}
+
+p.demo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.java {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.Luanpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 300px;
+}
+
+button.javadark {
+    background-image: url(images/darkmode.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    float: right;
+    margin-right: 10%;
+}
+  
+button span {
+    display: none;
+}
